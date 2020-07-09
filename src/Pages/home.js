@@ -273,9 +273,12 @@ export function Home({ navigation }) {
           </ScrollView>
         </View>
       </View>
-      <View style={styles.footerContainer}>
-        <Text style={styles.footerText}>www.muguku.co.ke</Text>
-      </View>
+      {/* only show footer on web */}
+      {Platform.OS === "web" && (
+        <View style={styles.footerContainer}>
+          <Text style={styles.footerText}>www.muguku.co.ke</Text>
+        </View>
+      )}
     </View>
   );
 }
