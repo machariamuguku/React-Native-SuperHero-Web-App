@@ -147,7 +147,7 @@ export function Home({ navigation }) {
   // search one hero by name
   async function searchByName(name) {
     setIsReFetching(true);
-    await searchHero(name)
+    await searchHero(name, Platform.OS)
       .then((fetchData) => {
         if (fetchData.response === "success") {
           setSuperHeroFetchError("");

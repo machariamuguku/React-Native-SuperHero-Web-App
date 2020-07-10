@@ -20,15 +20,19 @@ export async function generateSixRandom() {
 }
 
 // search one superhero by name
-export async function searchHero(superHeroName) {
+export async function searchHero(superHeroName, Platform) {
   // compose base url from passed in name
   let baseURL = `https://superheroapi.com/api/270239450740002/search/${superHeroName}`;
 
   // use this to avoid CORS errors in development
-  // let corsProxy = "https://cors-anywhere.herokuapp.com/";
-  // let corsURL = corsProxy + baseURL;
+  let corsProxy = "https://cors-anywhere.herokuapp.com/";
 
-  const req = await fetch(baseURL)
+  let corsURL = corsProxy + baseURL;
+
+  // use cors everywhere on web only
+  let url = Platform === "web" ? corsURL : baseURL;
+
+  const req = await fetch(url)
     .then((resp) => resp.json())
     .catch((respError) => {
       console.error("Error:", respError);
