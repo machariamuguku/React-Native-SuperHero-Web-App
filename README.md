@@ -23,6 +23,10 @@
     <a href="https://github.com/machariamuguku/React-Native-SuperHero-Web-App/issues">Report Bug</a>
     ·
     <a href="https://github.com/machariamuguku/React-Native-SuperHero-Web-App/issues">Request Feature</a>
+
+  <br />
+  <br />
+    <a href="https://www.linkedin.com/posts/machariamuguku_i-built-a-reorder-able-list-with-time-travel-activity-6746778104334704640-5tO_">Linked-in post on the motivation and what I learnt doing this Project</a>
   </p>
 </p>
 
