@@ -26,7 +26,7 @@
 
   <br />
   <br />
-    <a href="https://www.linkedin.com/posts/machariamuguku_i-built-a-reorder-able-list-with-time-travel-activity-6746778104334704640-5tO_">Linked-in post on the motivation and what I learnt doing this Project</a>
+    <a href="https://www.linkedin.com/posts/machariamuguku_react-reactnative-reactnativeweb-activity-6688337522755432448-sFEz">Linked-in post on the motivation and what I learnt doing this Project</a>
   </p>
 </p>
 
